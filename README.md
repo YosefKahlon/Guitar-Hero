@@ -25,7 +25,7 @@ I also used the NumberField component to display the player's score on the scree
 Start playing the music by pressing the volume button and stop by pressing again.
 
 audio: Red hot chili peppers - Californication.
-* audio.cs
+* [Audio.cs](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/Audio.cs)
 
 
 ## controller 
