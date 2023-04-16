@@ -20,6 +20,14 @@ I also used the NumberField component to display the player's score on the scree
 * [Update()](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/GameSystem.cs#:~:text=void-,Update,-())
 * [NumberField.cs](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/NumberField.cs)
 
+
+## Audio
+Start playing the music by pressing the volume button and stop by pressing again.
+
+audio: Red hot chili peppers - Californication.
+* audio.cs
+
+
 ## controller 
 
 * Up arrow\W - red cube.
@@ -31,9 +39,7 @@ I also used the NumberField component to display the player's score on the scree
 ## Editor version 
 2021.3.18f1
 
-
-
-
+![Alt text](Assets/Images/Screenshot%202023-04-15%20231941.jpg)
 
 
 
