@@ -12,22 +12,19 @@ The game features four spawner cubes of different colors that fall randomly from
 I used Unity's InputSystem to detect button presses, and I used tags to differentiate the falling cubes' colors. I created a GameSystem script that handles the game's mechanics, including adding points to the player's score and changing the color of the static cubes when the player hits the correct button.
 
  used the Box Collider 2D and Rigidbody 2D components to detect collisions between the falling cubes and the static cubes. When a collision occurs, the CanPress boolean is set to true, allowing the player to score points by pressing the correct button.
+* [OnTriggerEnter2D(Collider2D other)](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/GameSystem.cs#:~:text=private%20void-,OnTriggerEnter2D,-(Collider2D%20other))
+* [OnTriggerExit2D(Collider2D other)](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/GameSystem.cs#:~:text=private%20void-,OnTriggerExit2D,-(Collider2D%20other))
 
 I also used the NumberField component to display the player's score on the screen. The SetScoreField function in the GameSystem script assigns the player's score to the NumberField component, allowing the score to be updated dynamically during gameplay.
 
-
-* OnTriggerEnter2D(Collider2D other)
-* OnTriggerExit2D(Collider2D other)
-
-
-* Update()
-* NumberField.cs
+* [Update()](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/GameSystem.cs#:~:text=void-,Update,-())
+* [NumberField.cs](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/NumberField.cs)
 
 ## controller 
 
 * Up arrow\W - red cube.
 * Down arrow\S - blue cube.
-* Rigth arrow\D - yellow cube.
+* Right arrow\D - yellow cube.
 * Left arrow\A - green cube.
 
 
