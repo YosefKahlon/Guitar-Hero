@@ -30,10 +30,10 @@ audio: Red hot chili peppers - Californication.
 
 ## Controller 
 
-* Up arrow\W - red cube.
-* Down arrow\S - blue cube.
-* Right arrow\D - yellow cube.
-* Left arrow\A - green cube.
+* Up arrow - red cube.
+* Down arrow - blue cube.
+* Right arrow - yellow cube.
+* Left arrow - green cube.
 
 
 ## Editor version 
