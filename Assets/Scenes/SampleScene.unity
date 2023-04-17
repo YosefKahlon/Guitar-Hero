@@ -263,6 +263,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Button
       m_Flags: 0
+    - m_Name: 
+      m_Id: 753cd6ec-9ba6-4748-a92a-410fedf2e86e
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Button
+      m_Flags: 0
     m_Flags: 0
   orignalColor: {r: 0.1254902, g: 0.33333334, b: 0.8666667, a: 0}
   wasPressedColor: {r: 0.043137256, g: 0.83137256, b: 0.77254903, a: 0}
@@ -361,7 +369,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 512488285}
-  - component: {fileID: 512488286}
   - component: {fileID: 512488289}
   - component: {fileID: 6151487716964671819}
   m_Layer: 0
@@ -390,19 +397,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &512488286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 512488284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78338374c3f96ea4494f4b7fefb7fdc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocity: {x: 0, y: -3, z: 0}
 --- !u!114 &512488289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,6 +1275,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Button
       m_Flags: 0
+    - m_Name: 
+      m_Id: 8c3fb17f-6ce8-44d8-926f-da8b34e210d6
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Button
+      m_Flags: 0
     m_Flags: 0
   orignalColor: {r: 0.98039216, g: 0.95686275, b: 0.28235295, a: 0}
   wasPressedColor: {r: 0.043137256, g: 0.83137256, b: 0.77254903, a: 0}
@@ -1895,6 +1897,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Button
       m_Flags: 0
+    - m_Name: 
+      m_Id: e8d4015e-cb45-49b6-be38-533e36747156
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Button
+      m_Flags: 0
     m_Flags: 0
   orignalColor: {r: 0.7529412, g: 0.023529412, b: 0.11764706, a: 0}
   wasPressedColor: {r: 0.042292565, g: 0.8301887, b: 0.7715275, a: 0}
@@ -2042,6 +2052,14 @@ MonoBehaviour:
     - m_Name: 
       m_Id: 1d6374eb-88e4-403d-9ce5-4308629c2fc3
       m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Button
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4c0ef16a-a75e-4e81-90d3-a97697654f22
+      m_Path: <Keyboard>/a
       m_Interactions: 
       m_Processors: 
       m_Groups: 
