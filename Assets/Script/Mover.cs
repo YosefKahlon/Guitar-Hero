@@ -20,6 +20,10 @@ public class Mover : MonoBehaviour
     {
         transform.position += velocity * Time.deltaTime;
     }
+    private void OnBecameInvisible()
+    {
+        Destroy(this.gameObject);
+    }
     public void SetVelocity(Vector3 newVelocity)
     {
         
