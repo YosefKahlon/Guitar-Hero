@@ -20,6 +20,8 @@ I also used the NumberField component to display the player's score on the scree
 * [Update()](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/GameSystem.cs#:~:text=void-,Update,-())
 * [NumberField.cs](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/NumberField.cs)
 
+When an object is spawned, it will automatically be destroyed once it moves out of the camera's view.
+This is achieved using the [OnBecameInvisible()](https://github.com/YosefKahlon/Guitar-Hero/blob/master/Assets/Script/Mover.cs#:~:text=private%20void-,OnBecameInvisible,-())) function.
 
 ## Audio
 Start playing the music by pressing the volume button and stop by pressing again.
